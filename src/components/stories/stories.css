@@ -1,0 +1,66 @@
+/* --davys-grey: #585858;
+--gray-x-11-gray: #BCBCBC;
+--davys-grey-2: #505050;
+--bottle-green: #146E51;
+--jet: #303030; */
+
+.stories-container {
+  background: #303030;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-bottom: 2px solid #146e51;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.active-stories {
+  border-bottom: 1px solid #1ca77b;
+}
+
+.stories-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  padding: 2px 0 5px 0;
+  font-size: 12px;
+}
+
+.stories-icon {
+  font-size: xx-large;
+  text-align: center;
+  color: #696969;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: white;
+}
+
+@media (max-width: 320px) {
+  .stories-container {
+    background: #303030;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid #146e51;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+}
+
+@media (max-width: 425px) {
+  .stories-container {
+    background: #303030;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid #146e51;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+}

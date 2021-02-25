@@ -1,0 +1,84 @@
+body {
+  background: #505050;
+}
+.header {
+  display: flex;
+  background-color: #505050;
+}
+
+.header-color {
+  background: #585858;
+}
+
+.name {
+  flex: 3;
+  padding-top: 1px;
+}
+
+.league {
+  margin-left: 20px;
+  display: flex;
+}
+
+.league-border {
+  border-right: 1px solid #5d5d5d;
+}
+
+/* .odds {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+} */
+
+.teams {
+  flex: 1;
+}
+
+.time,
+.minute {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.fontTitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: #cecece;
+  padding: 0 10px;
+  line-height: 25px;
+}
+
+.fontTeam {
+  font-size: 12px;
+  color: #ddd;
+  line-height: 25px;
+}
+
+.odds-1,
+.odds-X,
+.odds-2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #cecece;
+  font-size: 12px;
+}
+
+.odds-color {
+  color: #ffdf1b;
+}
+
+.odds-color:hover {
+  cursor: pointer;
+  background: #cecece;
+  color: #505050;
+}
+
+hr {
+  color: #5d5d5d !important;
+  opacity: 90% !important;
+  width: 95%;
+  margin: 0 auto !important;
+}
